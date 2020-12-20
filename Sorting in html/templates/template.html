@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>中国飞机场数据</title>
+     <style>
+            td{color:black;width:150px;height:20px;font-size:15px}
+     </style>
+</head>
+<body>
+     <p style="font-size:24px;" align="center" ><b>飞机场信息</b></p>
+            <table align="center" border='1' cellspacing='5'>
+                {{WWWcontent|safe}}
+             </table>
+            <form action ="/WebInput/" method="post">
+                按2017年<input type=radio name="Column" value="2" checked>
+                按2018年<input type=radio name="Column" value="3">
+                按增长率<input type=radio name="Column" value="4"><br>
+                升序<input type=radio name="Seq" value="0" checked>
+                降序<input type=radio name="Seq" value="1"><br>
+                <input type=submit>
+            </form>
+
+</body>
+</html>
