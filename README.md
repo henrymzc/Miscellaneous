@@ -1,2 +1,2 @@
 # Miscellaneous
-This repo is designed for miscellaneous codes.
+This repo is designed for miscellaneous codes, mainly written in Python and Html.
